@@ -1,6 +1,8 @@
 # Palindrome Birthday
 
-A web app to check wheather your birthday is pallindrome or not.
+A web app to check whether your birthday is palindrome or not
+
+
 
 # Technologies used
 
