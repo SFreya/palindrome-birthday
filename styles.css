@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+:root {
+  --primary-color: #ffabcd;
+  --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    font-family: 'Libre Baskerville', serif;
+  background: linear-gradient(to right, #612349, #ffabcd);
+  background-size: 100vw;
+}
+
+.container {
+  margin: 2rem auto 6rem;
+  padding: 2rem;
+  text-align: center;
+  background: rgba(229, 231, 235, 0.8);
+  border: 2px solid #8d315d;
+  max-width: 50%;
+}
+
+.heading {
+  color: #612349;
+}
+
+.input-label {
+  margin: 1.5rem 0rem;
+  display: block;
+  font-size: x-large;
+  font-weight: 600;
+  color: #612349;
+}
+
+.input {
+  outline: white;
+  font-size: 14px;
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  max-width: 200px;
+}
+
+.check-button {
+  cursor: pointer;
+  margin: 2rem auto;
+  display: block;
+  background-color: #612349;
+  border: none;
+  padding: 0.7rem 1rem;
+  font-size: large;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.check-button:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: white;
+  border: 2px solid var(--primary-color);
+  padding: 0.7rem 1rem;
+}
+
+.output {
+  font-size: 1.4rem;
+  font-weight: bold;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.privacy {
+  background-color: white;
+  border: 2px solid rgb(24, 24, 24);
+  color: black;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 1.5rem auto 0;
+  max-width: 90%;
+  width: 450px;
+}
+
+.notice {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  background-color:  #612349;
+  color: var(--primary-color);
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+img,
+li {
+  display: inline;
+  padding: 0.2rem;
+  width: 40px;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+.link
+{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /*margin-top: 1rem;
+    margin-bottom: 1rem;*/
+}
+
+.link-secondary
+{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var (--primary-color);
+}
